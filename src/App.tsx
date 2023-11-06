@@ -1,6 +1,5 @@
 import { useQuery } from "react-query";
 import Select from "react-select";
-import "./App.css";
 import { Option } from "./types";
 import { useTagStore } from "./store";
 import CustomOption from "./CustomOption";
