@@ -1,5 +1,6 @@
 export interface Option {
-  label: string;
+  label?: string;
+  name?: string;
   value: string;
   category: string;
   id: string;
